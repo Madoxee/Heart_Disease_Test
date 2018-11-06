@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Heart Disease Test</title>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js" type="text/javascript" ></script>
+    <link href="style.css" >
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Heart Disease Test</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+         
+        </div>
+      </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center">
+      <h3 class="margin">Welcome to our HDT System</h3>
+      <img src="https://hellodoktor.com/wp-content/uploads/2017/08/Supplements-for-Heart-Health.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+      <h3>Please Choose Your Attribute(s)</h3>
+    </div>
+
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center">
+      <h3 class="margin">Attributes</h3>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="text" class="form-control" id="age">
+    
+      
+        <label for="mhr">max heart rate:
+          </label>
+        <input  type="text" placeholder="between 82 & 188" class="form-control" id="mhr">
+     
+    
+        <label for="cpt">Select chest pain type :
+      </label>
+        <select class="form-control" id="cpt">
+          <option value="atyp_angina">atyp_angina
+          </option>
+          <option value="asympt">asympt
+          </option>
+          <option value="non_anginal">non_anginal
+          </option>
+          <option value="typ_angina"> typ_angina
+          </option>
+        </select>
+    
+     
+        <label for="rbp">rest blood pressure :
+        </label>
+      <input type="text" placeholder="between 92 & 200"class="form-control" id="rbp">
+     
+        <label for="bs">Select blood sugar :
+        
+      </label>
+      <select class="form-control" id="bs">
+        <option>yes
+        </option>
+        <option>No
+        </option>
+        
+      </select>
+    
+    
+        <label for="ea">Select exercice angina :
+         
+
+        </label>
+        <select class="form-control" id="ea">
+          <option>yes
+          </option>
+          <option>No
+          </option>
+
+        </select>
+
+     
+        <label for="re">Select rest electro :
+          
+
+        </label>
+        <select class="form-control" id="re">
+          <option>left_vent_hyper
+
+          </option>
+          <option>Normal
+
+          </option>
+          <option>
+          st_t_wave_abnormality
+          </option>
+        </select>
+        <label for="Resault">Resault:</label>
+        <input type="text" class="form-control" id="Resault">
+<br>
+    
+        <a id="Get_Resault"  class="btn btn-default btn-lg">
+       
+        <span class="glyphicon glyphicon-search"></span> Get Resault
+      </a>
+      
+    </div>
+    </div>
+  
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+      <p> Made By mahmoud_90325</p> 
+    </footer>
+
+  </body>
+</html>
